@@ -1,11 +1,17 @@
 import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
+import { Switch, Route } from 'react-router-dom';
+import Header from './components/Header.jsx';
+import Main from './components/Main.jsx';
 
 function App() {
   return (
     <div>
-      
+      <Header/>
+      <Switch>
+        <Route exact path='/' component={Main} />
+      </Switch>
     </div>
   );
 }

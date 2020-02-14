@@ -14,13 +14,14 @@ function Header() {
   const brandStyle = {
     display: 'flex',
     alignItems: 'center',
+    textDecoration: 'none',
   }
   const navStyle = {
     display: 'flex',
     alignItems: 'center',
   }
   return (
-    <div style={headerStyle}>
+    <div className="box-shadow" style={headerStyle}>
       <div style={navStyle}>
         <Link className='left-link' to="/">Home</Link>
         <Link className='left-link' to="/products">Products</Link>

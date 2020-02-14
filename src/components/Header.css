@@ -1,19 +1,19 @@
-* {
+.box-shadow {
+  box-shadow: 0 4px 4px rgba(0, 0, 0, .2);
+}
+
+.brand-header {
   font-family: 'Quicksand', sans-serif;
+  font-size: 32px;
+  font-weight: 500;
   text-transform: lowercase;
-  text-decoration: none;
   color: #F7FFF7;
+  padding: 0 8px;
+  margin: 0;
 }
 
 .left-link {
   padding: 0 16px 0 0;
-}
-
-.brand-header {
-  font-size: 32px;
-  font-weight: 500;
-  padding: 0 8px;
-  margin: 0;
 }
 
 .right-link {
@@ -21,8 +21,12 @@
 }
 
 .left-link, .right-link {
+  font-family: 'Quicksand', sans-serif;
   font-weight: 600;
   letter-spacing: 0.03125em;
+  text-transform: lowercase;
+  text-decoration: none;
+  color: #F7FFF7;
 }
 
 .left-link:hover, .right-link:hover {
