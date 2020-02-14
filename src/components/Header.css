@@ -1,0 +1,30 @@
+* {
+  font-family: 'Quicksand', sans-serif;
+  text-transform: lowercase;
+  text-decoration: none;
+  color: #F7FFF7;
+}
+
+.left-link {
+  padding: 0 16px 0 0;
+}
+
+.brand-header {
+  font-size: 32px;
+  font-weight: 500;
+  padding: 0 8px;
+  margin: 0;
+}
+
+.right-link {
+  padding: 0 0 0 16px;
+}
+
+.left-link, .right-link {
+  font-weight: 600;
+  letter-spacing: 0.03125em;
+}
+
+.left-link:hover, .right-link:hover {
+  color: #1A535C;
+}
