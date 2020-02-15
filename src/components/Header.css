@@ -1,5 +1,5 @@
-.box-shadow {
-  box-shadow: 0 4px 4px rgba(0, 0, 0, .2);
+img {  
+  padding: 0 8px;
 }
 
 .brand-header {
@@ -8,7 +8,6 @@
   font-weight: 500;
   text-transform: lowercase;
   color: #F7FFF7;
-  padding: 0 8px;
   margin: 0;
 }
 
