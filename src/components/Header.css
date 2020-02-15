@@ -31,3 +31,7 @@ img {
 .left-link:hover, .right-link:hover {
   color: #1A535C;
 }
+
+.left-link:active, .right-link:active {
+  color: #32837D;
+}

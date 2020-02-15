@@ -3,7 +3,7 @@
   font-weight: 600;
   letter-spacing: 0.03125em;
   text-transform: lowercase;
-  color: #F7FFF7;
+  color: #32837D;
   margin: 0;
 }
 
@@ -12,4 +12,12 @@
   padding-bottom: 8px;
   font-size: 2em;
   color: #F7FFF7;
+}
+
+.social-media:hover {
+  color: #1A535C;
+}
+
+.social-media:active {
+  color: #32837D;
 }

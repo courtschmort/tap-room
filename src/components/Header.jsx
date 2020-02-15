@@ -23,16 +23,16 @@ function Header() {
   return (
     <div style={headerStyle}>
       <div style={navStyle}>
-        <Link className='left-link' to="/">Home</Link>
-        <Link className='left-link' to="/products">Products</Link>
+        <Link className='left-link' to='/about'>About</Link>
+        <Link className='left-link' to='/products'>Products</Link>
       </div>
-      <Link style={brandStyle} to="/">
+      <Link style={brandStyle} to='/'>
         <img src={logo} alt='logo' height='32px'/>
         <p className='brand-header'>mucha</p>
       </Link>
       <div style={navStyle}>
-        <Link className='right-link' to="/signup">Sign Up</Link>
-        <Link className='right-link' to="/signin">Sign In</Link>
+        <Link className='right-link' to='/signup'>Sign Up</Link>
+        <Link className='right-link' to='/signin'>Sign In</Link>
       </div>
     </div>
   );

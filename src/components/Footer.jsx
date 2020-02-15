@@ -13,8 +13,8 @@ function Footer() {
   }
   return (
     <div style={footerStyle}>
-      <p className='social-media'><i class="fab fa-instagram"></i></p>
-      <p className='brand-paragraph'>Copyright &copy; 2020 mucha All rights reserved</p>
+      <a className='social-media' href='https://www.instagram.com/' target='_blank'><i class="fab fa-instagram"></i></a>
+      <p className='brand-paragraph'>Copyright &copy; 2020 All rights reserved</p>
     </div>
   );
 }
