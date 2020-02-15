@@ -1,3 +1,11 @@
+# Tap Room
+
+#### React Fundamentals Independent Project for [Epicodus](https://www.epicodus.com/); February 14, 2020
+
+<!-- Updated Month DD, YYYY -->
+
+#### By Courtney Schild
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
