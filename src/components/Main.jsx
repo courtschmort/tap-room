@@ -1,15 +1,16 @@
 import React from 'react';
+import './Main.css';
 
 function Main() {
   const mainStyle = {
     height: '100vh',
-    backgroundColor: '#FF6663',
-    position: 'relative',
-    zIndex: '-1',
+    display: 'flex',
+    alignItems: 'center',
+    padding: '0 64px',
   }
   return (
-    <div style={mainStyle}>
-      
+    <div className='background' style={mainStyle}>
+      <h1>When life gives us lemons, we make kombucha—lots of it.</h1>
     </div>
   );
 }

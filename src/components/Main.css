@@ -1,0 +1,14 @@
+h1 {
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 5em;
+  color: #F7FFF7;
+}
+
+.background {
+  background-image: url('../assets/images/giorgio-trovato-cw1MAVs4wV8-unsplash.jpg');
+  background-attachment: fixed;
+  background-position: 0 70%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
