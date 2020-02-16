@@ -1,12 +1,4 @@
-h1 {
-  margin: 0;
-  font-family: 'Quicksand', sans-serif;
-  font-size: 4em;
-  text-shadow: -2px 2px 4px rgba(0, 0, 0, 0.2);
-  color: #F7FFF7;
-}
-
-.background {
+.background-photo {
   background-image: url('../assets/images/giorgio-trovato-cw1MAVs4wV8-unsplash.jpg');
   background-attachment: fixed;
   background-position: 0 70%;
@@ -15,16 +7,16 @@ h1 {
 }
 
 .button {
-  padding: 1em 2em;
+  background-color: #FF6663;
   border: none;
   border-radius: .5em;
+  padding: 1em 2em;
   font-family: 'Lato', sans-serif;
   font-size: 1em;
   font-weight: 600;
   text-decoration: none;
   text-align: center;
-  color: #F7FFF7;
-  background-color: #FF6663;
+  color: white;
 }
 
 .button:hover {
