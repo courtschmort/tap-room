@@ -1,0 +1,15 @@
+.social-media {
+  margin: 0;
+  padding: 16px 8px;
+  font-size: 2em;
+  text-decoration: none;
+  color: #4ECDC4;
+}
+
+.social-media:hover {
+  color: #1A535C;
+}
+
+.social-media:active {
+  color: #32837D;
+}
