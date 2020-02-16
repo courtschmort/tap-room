@@ -3,18 +3,26 @@ import './Footer.css';
 
 function Footer() {
   const footerStyle = {
-    height: '128px',
-    padding: '0 16px',
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
-    flexDirection: 'column',
+    height: '64px',
     backgroundColor: '#4ECDC4',
+    borderTop: '4px solid #8EDFD9',
+    borderBottom: '4px solid #40A8A1',
+    padding: '0 16px',
+  }
+  const copyrightStyle = {
+    margin: '0',
+    fontFamily: "'Quicksand', sans-serif",
+    fontWeight: '600',
+    letterSpacing: '0.03125em',
+    textTransform: 'lowercase',
+    color: 'white',
   }
   return (
     <div style={footerStyle}>
-      <a className='social-media' href='https://www.instagram.com/' target='_blank'><i class="fab fa-instagram"></i></a>
-      <p className='brand-paragraph'>Copyright &copy; 2020 All rights reserved</p>
+      <p style={copyrightStyle}>Copyright &copy; 2020 All rights reserved</p>
     </div>
   );
 }
