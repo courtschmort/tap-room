@@ -1,9 +1,9 @@
 import React from 'react';
-import './Main.css';
+import './Home.css';
 import { Link } from 'react-router-dom';
 import SocialMedia from './SocialMedia.jsx';
 
-function Main() {
+function Home() {
   const mainStyle = {
     display: 'flex',
     flexDirection: 'column',
@@ -44,4 +44,4 @@ function Main() {
   );
 }
 
-export default Main;
+export default Home;
