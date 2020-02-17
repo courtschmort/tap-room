@@ -13,9 +13,6 @@ function App() {
       <Switch>
         <Route exact path='/' component={Home}/>
         <Route exact path='/products' component={Products}/>
-        <Route exact path='/contact' component={Contact}/>
-        <Route exact path='/signup' component={SignUp}/>
-        <Route exact path='/signin' component={SignIn}/>
       </Switch>
       <Footer/>
     </div>
@@ -23,3 +20,7 @@ function App() {
 }
 
 export default App;
+
+// <Route exact path='/contact' component={Contact}/>
+// <Route exact path='/signup' component={SignUp}/>
+// <Route exact path='/signin' component={SignIn}/>
