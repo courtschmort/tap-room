@@ -5,6 +5,7 @@ import Header from './components/Header.jsx';
 import Home from './components/Home.jsx';
 import Products from './components/Products.jsx';
 import Footer from './components/Footer.jsx';
+import Error404 from './Error404';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Switch>
         <Route exact path='/' component={Home}/>
         <Route exact path='/products' component={Products}/>
+        <Route component={Error404} />
       </Switch>
       <Footer/>
     </div>
