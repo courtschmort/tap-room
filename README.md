@@ -6,6 +6,13 @@
 
 #### By Courtney Schild
 
+## Documentation
+
+![Tap Room Component and Route Structure](/src/assets/tap-room.jpg)
+![Photo of early wireframe sketch](/src/assets/IMG_6646.jpeg)
+
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
