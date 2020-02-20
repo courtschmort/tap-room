@@ -5,7 +5,7 @@ import Header from './components/Header.jsx';
 import Home from './components/Home.jsx';
 import Products from './components/Products.jsx';
 import Footer from './components/Footer.jsx';
-import Error404 from './Error404';
+import Error404 from './components/Error404';
 
 function App() {
   return (
