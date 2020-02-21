@@ -35,7 +35,7 @@ function ProductDetails(props) {
   }
   const descriptionStyle = {
     margin: '0',
-    fontFamily: "'Lato', sans-serif",
+    fontFamily: "'Roboto', ",
     fontSize: '1.25em',
     lineHeight: '1.5',
   }

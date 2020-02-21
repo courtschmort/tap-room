@@ -21,8 +21,8 @@ function Home() {
   }
   const subStyle = {
     margin: '0',
-    fontFamily: "'Lato', sans-serif",
-    fontSize: '1.5em',
+    fontFamily: "'Roboto', ",
+    fontSize: '2em',
     fontWeight: '400',
     lineHeight: '1.5',
     color: '#333',
