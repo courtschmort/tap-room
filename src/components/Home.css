@@ -7,12 +7,15 @@
 }
 
 .button {
+  margin-right: 2em;
   background-color: #FF6663;
   border: none;
   border-radius: .5em;
   padding: 1em 2em;
   font-family: 'Quicksand', sans-serif;
   font-weight: 600;
+  letter-spacing: 0.03125em;
+  text-transform: lowercase;
   text-decoration: none;
   text-align: center;
   color: white;
