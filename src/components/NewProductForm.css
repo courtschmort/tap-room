@@ -1,0 +1,5 @@
+.background-pattern {
+  background-image: url('../assets/images/lemon-solid-pattern.svg');
+  background-repeat: repeat;
+  background-size: 128px;
+}
