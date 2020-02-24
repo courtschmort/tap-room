@@ -1,17 +1,39 @@
 # Tap Room
 
 #### React Fundamentals Independent Project for [Epicodus](https://www.epicodus.com/); February 14, 2020
+#### Managing State Independent Project for [Epicodus](https://www.epicodus.com/); February 21, 2020
 
-<!-- Updated Month DD, YYYY -->
+Updated February 23, 2020
 
 #### By Courtney Schild
+
+## Description
+
+This is a website for a fake kombucha tap room.
 
 ## Documentation
 
 ![Tap Room Component and Route Structure](/src/assets/tap-room.jpg)
-![Photo of early wireframe sketch](/src/assets/IMG_6646.jpeg)
 
 ---
+
+## Setup/Installation Requirements
+
+#### Cloning
+
+###### From GitHub
+1. Click the **Clone or download** dropdown button.
+2. Within the dropdown, click the **Download ZIP** button.
+
+###### From the command-line interface (CLI)
+1. To change the directory, type `cd Desktop` after the command prompt.
+2. To clone the repository to your Desktop, type `git clone https://github.com/courtschmort/tap-room.git` after the command prompt. (This web URL can be located within the **Clone or download** dropdown button in GitHub.)
+3. To change the directory, type `cd tap-room` after the command prompt. You will now be in the root directory of the project.
+
+For more information about cloning repositories available on GitHub, click [here](https://help.github.com/en/articles/which-remote-url-should-i-use).
+
+#### React
+4. To install dependencies, type `npm run install` after the command prompt.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -81,3 +103,40 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+## Known Bugs
+
+There are no known bugs at this time.
+
+## Support and Contact Details
+
+If you have any questions, please email me at courtneyschild@gmail.com.
+
+Find me on LinkedIn and GitHub:
+
+* [Connect with me](https://www.linkedin.com/in/courtneyschild/) on LinkedIn
+* [Follow me](https://github.com/courtschmort) or [watch this repository](https://github.com/courtschmort/tap-room.git) on GitHub
+
+## Product Roadmap
+
+In the future, I plan to include the following key features:
+* User Authentication
+* Full CRUD
+* Image upload for new product form
+
+## Technologies Used
+
+* Markdown
+* HTML
+* CSS
+* JavaScript
+* ReactJS
+* [npm](https://www.npmjs.com/)
+* [uuid](https://github.com/uuidjs/uuid)
+* Atom
+
+## License
+
+This website is licensed under the GNU General Public License v3.0 [gpl-3.0](https://www.gnu.org/licenses/gpl-3.0.en.html).
+
+Copyright &copy; 2020 **Courtney Schild**
